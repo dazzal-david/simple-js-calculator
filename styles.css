@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    background-color: hsl(0, 2%, 42%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 0.9em 0.1em;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 1.5em;
+    text-align: right;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.input-section {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: rgb(194, 243, 243);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:active {
+    background-color: rgb(79, 124, 163);
+}
+
+button:hover {
+    background-color: rgb(159, 167, 173);
+}
+
+.functionsBtn {
+    background-color: hsl(39, 88%, 52%);
+} 
+
+button:active {
+    background-color: lightblue;
+}
+
+#heading {
+    font-size: 2em;
+    color: aliceblue;
+
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0.5em;
+
+}
